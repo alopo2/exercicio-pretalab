@@ -17,5 +17,5 @@ if(media >= 6){
 } else if(media < 6 && media > 5) {
     console.log("João, não desista. Faça uma pesquisa e me traga na segunda. Sua média foi: " + Math.round(media))
 } else {
-    console.log(`Deu ruim, boy! Sua média foi:  ${media}`);
+    console.log(`Deu ruim, boy! Sua média foi:  ${Math.round(media)}`);
 }
